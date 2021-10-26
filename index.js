@@ -33,7 +33,6 @@ async function run() {
             }
             else {
                 products = await cursor.toArray();
-
             }
 
             res.json({
